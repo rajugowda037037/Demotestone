@@ -1,0 +1,142 @@
+$x("//*[@id='username']")
+//*[@id='username']
+//*[@id='username']
+//*[@id="username"]
+
+<input type="text" class="inputtext _55r1 _6luy" name="email" id="email" data-testid="royal_email" placeholder="Email address or phone number" autofocus="1" 
+aria-label="Email address or phone number">
+
+<button value="1" class="_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy" name="login" data-testid="royal_login_button" type="submit" id="u_0_d_0n">Log In</button>
+
+//input[@placeholder="Email address or phone number"]
+
+//button[@name="login"]
+//input[@id='email']
+
+
+<input type="password" class="inputtext _55r1 _6luy _9npi" name="pass" id="pass" data-testid="royal_pass" placeholder="Password" aria-label="Password">
+
+input[placeholder='Password']
+input#pass
+input#pass
+
+button[name="login"]
+input[id='email']
+
+<input type="text" class="inputtext _55r1 _6luy" name="email" id="email" 
+data-testid="royal_email" placeholder="Email address or phone number" autofocus="1" aria-label="Email address or phone number">
+
+input["id='email'"]
+
+
+Drop down
+<select name="ctl00$mainContent$DropDownListCurrency" id="ctl00_mainContent_DropDownListCurrency" class="valid">
+	<option value="">Select</option>
+	<option value="INR">INR</option>
+	<option value="AED">AED</option>
+	<option value="USD">USD</option>
+
+</select>
+
+
+<div id="divpaxinfo" class="paxinfo">1 Adult</div>
+<span class="pax-add pax-enabled" id="hrefIncAdt">+</span>
+
+<input id="ctl00_mainContent_ddl_originStation1_CTXT" name="ctl00_mainContent_ddl_originStation1_CTXT" 
+selectedtext="" selectedvalue="" value="Departure City" class="select_CTXT" 
+menuselection="false" autocomplete="off" style="width: 250px; height: 43px; border: 1px solid rgb(153, 153, 153);">
+<input id="ctl00_mainContent_ddl_destinationStation1_CTXT" name="ctl00_mainContent_ddl_destinationStation1_CTXT" selectedtext="Chennai (MAA)" selectedvalue="MAA" value="Chennai (MAA)" 
+class="select_CTXT valid" menuselection="true" autocomplete="off" style="width: 250px; height: 43px; border: 1px solid rgb(153, 153, 153);" xpath="1">
+
+
+<a href="#" class="" tooltip="" onclick="javascript:$CityDropDown.SetSelectedValue(this);return false;" 
+text="Chennai (MAA)" value="MAA" xpath="1"> Chennai (MAA)</a>
+
+//a[@value='MAA']
+
+<input id="ctl00_mainContent_rbtnl_Trip_1" type="radio" name="ctl00$mainContent$rbtnl_Trip" value="RoundTrip" checked="checked">
+
+
+
+Talent ID “2714377”
+
+import java.util.ArrayList;
+
+import org.testng.annotations.Test;
+
+//@Test
+public class Streamtestcase {
+	
+	public void regular()
+	{
+	ArrayList<String>names=new ArrayList<String>();
+	names.add("Abhijeet");
+	names.add("Don");
+	names.add("Alekhya");
+	names.add("Adam");
+	names.add("Ram");
+	
+	int count=0;
+	for(int i=0;i<names.size();i++)
+	{
+		String actualName=names.get(i);
+		if(actualName.startsWith("A"))
+		{
+			count++;
+		}
+	}
+	System.out.println(count);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
